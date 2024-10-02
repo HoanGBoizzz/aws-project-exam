@@ -9,33 +9,23 @@ Bước 2: Tạo Instance EC2
   
   -Nhấn vào “Launch Instance” để tạo một phiên bản mới.
   
-  -Chọn Amazon Machine Image (AMI):
-    Chọn AMI Windows Server (ví dụ: Windows Server 2022).
+  -Chọn Amazon Machine Image (AMI): Chọn AMI Windows Server (ví dụ: Windows Server 2022).
   
-  -Chọn Instance Type:
-    Chọn loại instance (ví dụ: t2.micro) cho kế hoạch miễn phí.
+  -Chọn Instance Type: Chọn loại instance (ví dụ: t2.micro) cho kế hoạch miễn phí.
   
-  -Cấu hình Instance:
-    Nhấn “Next: Configure Instance Details” và để cấu hình mặc định.
+  -Cấu hình Instance: Nhấn “Next: Configure Instance Details” và để cấu hình mặc định.
   
-  -Thêm Storage:
-    Thêm dung lượng nếu cần, mặc định thường đủ cho ứng dụng nhỏ.
+  -Thêm Storage: nThêm dung lượng nếu cần, mặc định thường đủ cho ứng dụng nhỏ.
   
-  -Thêm Tags (Tùy chọn):
-    Bạn có thể thêm tags để quản lý dễ hơn.
+  -Thêm Tags (Tùy chọn): Bạn có thể thêm tags để quản lý dễ hơn.
   
-  -Cấu hình Security Group:
+  -Cấu hình Security Group.
   
-  -Tạo một security group mới hoặc sử dụng nhóm hiện tại, đảm bảo cho phép các cổng sau:
-    HTTP: Port 80
-    HTTPS: Port 443 
-    RDP: Port 3389 (để kết nối vào server)
+  -Tạo một security group mới hoặc sử dụng nhóm hiện tại, đảm bảo cho phép các cổng sau: HTTP: Port 80, HTTPS: Port 443, RDP: Port 3389 (để kết nối vào server)
   
-  -Review and Launch:
-    Xem lại cấu hình và nhấn “Launch”.
+  -Review and Launch: Xem lại cấu hình và nhấn “Launch”.
   
-  -Tạo Key Pair:
-    Tạo key pair mới hoặc sử dụng key pair hiện tại để truy cập vào instance.
+  -Tạo Key Pair: Tạo key pair mới hoặc sử dụng key pair hiện tại để truy cập vào instance.
 
 Bước 3: Kết nối tới Instance EC2
   

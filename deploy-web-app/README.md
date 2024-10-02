@@ -22,7 +22,11 @@ Bước 2: Tạo Instance EC2
   
   -Cấu hình Security Group.
   
-  -Tạo một security group mới hoặc sử dụng nhóm hiện tại, đảm bảo cho phép các cổng sau: HTTP: Port 80, HTTPS: Port 443, RDP: Port 3389 (để kết nối vào server)
+  -Tạo một security group mới hoặc sử dụng nhóm hiện tại, đảm bảo cho phép các cổng sau: 
+  
+  +HTTP: Port 80
+  +HTTPS: Port 443
+  +RDP: Port 3389 (để kết nối vào server)
   
   -Review and Launch: Xem lại cấu hình và nhấn “Launch”.
   
@@ -30,16 +34,17 @@ Bước 2: Tạo Instance EC2
 
 Bước 3: Kết nối tới Instance EC2
   
-  -Mở Remote Desktop Connection (RDP):
-    Trên máy tính của bạn, tìm kiếm "Remote Desktop Connection" và mở nó.
+  -Mở Remote Desktop Connection (RDP): Trên máy tính của bạn, tìm kiếm "Remote Desktop Connection" và mở nó.
   
   -Kết nối vào instance:
-    Nhập địa chỉ IP công cộng của instance (có thể tìm thấy trong bảng điều khiển EC2).
-    Nhấn "Connect".
+    
+    +Nhập địa chỉ IP công cộng của instance (có thể tìm thấy trong bảng điều khiển EC2).
+    +Nhấn "Connect".
   
   -Nhập thông tin đăng nhập:
-    Sử dụng file .pem để tạo mật khẩu cho tài khoản Administrator (nếu cần).
-    Nhập tên đăng nhập là Administrator và mật khẩu tương ứng.
+    
+    +Sử dụng file .pem để tạo mật khẩu cho tài khoản Administrator (nếu cần).
+    +Nhập tên đăng nhập là Administrator và mật khẩu tương ứng.
 
 Bước 4: Cài đặt XAMPP trên Windows
   
@@ -53,18 +58,19 @@ Bước 4: Cài đặt XAMPP trên Windows
     +Nhấn "Next" và hoàn tất quá trình cài đặt.
   
   -Khởi động XAMPP:
-    Mở XAMPP Control Panel từ menu Start.
-    Nhấn nút "Start" bên cạnh Apache và MySQL để khởi động các dịch vụ.
+    
+    +Mở XAMPP Control Panel từ menu Start.
+    +Nhấn nút "Start" bên cạnh Apache và MySQL để khởi động các dịch vụ.
 
 Bước 5: Triển khai ứng dụng PHP
 
 -Chép mã nguồn PHP vào thư mục XAMPP:
-  Mặc định, thư mục chứa ứng dụng web là C:\xampp\htdocs\.
-  Bạn có thể sao chép mã nguồn PHP của mình vào thư mục này bằng cách sử dụng Remote Desktop hoặc upload qua FTP.
+  
+  +Mặc định, thư mục chứa ứng dụng web là C:\xampp\htdocs\.
+  +Bạn có thể sao chép mã nguồn PHP của mình vào thư mục này bằng cách sử dụng Remote Desktop hoặc upload qua FTP.
 
--Thay đổi quyền truy cập (không cần trên Windows):
-  Trên Windows, bạn không cần thay đổi quyền truy cập như trên Linux.
+-Thay đổi quyền truy cập (không cần trên Windows): Trên Windows, bạn không cần thay đổi quyền truy cập như trên Linux.
 
 Bước 6: Cấu hình cơ sở dữ liệu (nếu cần)
--Khởi động phpMyAdmin:
-Mở trình duyệt và nhập http://ec2-13-239-121-244.ap-southeast-2.compute.amazonaws.com/phpmyadmin.
+
+-Khởi động phpMyAdmin: Mở trình duyệt và nhập http://ec2-13-239-121-244.ap-southeast-2.compute.amazonaws.com/phpmyadmin.

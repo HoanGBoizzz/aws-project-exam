@@ -1,5 +1,6 @@
 Bước 1: Tạo tài khoản AWS
-  Đăng ký tài khoản AWS: Nếu bạn chưa có tài khoản, hãy truy cập AWS và tạo tài khoản.
+  
+  -Đăng ký tài khoản AWS: Nếu bạn chưa có tài khoản, hãy truy cập AWS và tạo tài khoản.
 
 Bước 2: Tạo Instance EC2
   
@@ -42,14 +43,13 @@ Bước 3: Kết nối tới Instance EC2
 
 Bước 4: Cài đặt XAMPP trên Windows
   
-  -Tải XAMPP:
-  Truy cập vào trang XAMPP và tải xuống phiên bản XAMPP dành cho Windows.
+  -Tải XAMPP: Truy cập vào trang XAMPP và tải xuống phiên bản XAMPP dành cho Windows.
   
   -Cài đặt XAMPP:
-    Mở file cài đặt .exe đã tải xuống.
-    Chọn các thành phần cần cài đặt (HTTP Server, MySQL, PHP, Perl).
-    Chọn thư mục cài đặt (mặc định là C:\xampp).
-    Nhấn "Next" và hoàn tất quá trình cài đặt.
+    +Mở file cài đặt .exe đã tải xuống.
+    +Chọn các thành phần cần cài đặt (HTTP Server, MySQL, PHP, Perl).
+    +Chọn thư mục cài đặt (mặc định là C:\xampp).
+    +Nhấn "Next" và hoàn tất quá trình cài đặt.
   
   -Khởi động XAMPP:
     Mở XAMPP Control Panel từ menu Start.

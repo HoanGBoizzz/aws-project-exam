@@ -1,7 +1,9 @@
 Bước 1: Tạo tài khoản AWS
+  
   Đăng ký tài khoản AWS: Nếu bạn chưa có tài khoản, hãy truy cập AWS và tạo tài khoản.
 
 Bước 2: Tạo Instance EC2
+  
   -Đăng nhập vào AWS Management Console.
   
   -Chọn EC2 từ bảng điều khiển.
@@ -37,6 +39,7 @@ Bước 2: Tạo Instance EC2
     Tạo key pair mới hoặc sử dụng key pair hiện tại để truy cập vào instance.
 
 Bước 3: Kết nối tới Instance EC2
+  
   -Mở Remote Desktop Connection (RDP):
     Trên máy tính của bạn, tìm kiếm "Remote Desktop Connection" và mở nó.
   
@@ -49,6 +52,7 @@ Bước 3: Kết nối tới Instance EC2
     Nhập tên đăng nhập là Administrator và mật khẩu tương ứng.
 
 Bước 4: Cài đặt XAMPP trên Windows
+  
   -Tải XAMPP:
   Truy cập vào trang XAMPP và tải xuống phiên bản XAMPP dành cho Windows.
   
@@ -63,6 +67,7 @@ Bước 4: Cài đặt XAMPP trên Windows
     Nhấn nút "Start" bên cạnh Apache và MySQL để khởi động các dịch vụ.
 
 Bước 5: Triển khai ứng dụng PHP
+
 -Chép mã nguồn PHP vào thư mục XAMPP:
   Mặc định, thư mục chứa ứng dụng web là C:\xampp\htdocs\.
   Bạn có thể sao chép mã nguồn PHP của mình vào thư mục này bằng cách sử dụng Remote Desktop hoặc upload qua FTP.

@@ -16,7 +16,7 @@ Bước 2: Tạo Instance EC2
   
   -Cấu hình Instance: Nhấn “Next: Configure Instance Details” và để cấu hình mặc định.
   
-  -Thêm Storage: nThêm dung lượng nếu cần, mặc định thường đủ cho ứng dụng nhỏ.
+  -Thêm Storage: Thêm dung lượng nếu cần, mặc định thường đủ cho ứng dụng nhỏ.
   
   -Thêm Tags (Tùy chọn): Bạn có thể thêm tags để quản lý dễ hơn.
   

@@ -25,7 +25,9 @@ Bước 2: Tạo Instance EC2
   -Tạo một security group mới hoặc sử dụng nhóm hiện tại, đảm bảo cho phép các cổng sau: 
   
   +HTTP: Port 80
+  
   +HTTPS: Port 443
+  
   +RDP: Port 3389 (để kết nối vào server)
   
   -Review and Launch: Xem lại cấu hình và nhấn “Launch”.

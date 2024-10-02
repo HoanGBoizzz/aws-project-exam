@@ -1,5 +1,4 @@
 Bước 1: Tạo tài khoản AWS
-  
   Đăng ký tài khoản AWS: Nếu bạn chưa có tài khoản, hãy truy cập AWS và tạo tài khoản.
 
 Bước 2: Tạo Instance EC2

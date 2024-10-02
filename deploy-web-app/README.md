@@ -46,6 +46,7 @@ Bước 4: Cài đặt XAMPP trên Windows
   -Tải XAMPP: Truy cập vào trang XAMPP và tải xuống phiên bản XAMPP dành cho Windows.
   
   -Cài đặt XAMPP:
+    
     +Mở file cài đặt .exe đã tải xuống.
     +Chọn các thành phần cần cài đặt (HTTP Server, MySQL, PHP, Perl).
     +Chọn thư mục cài đặt (mặc định là C:\xampp).
